@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="digital_7.ttf">
+            <string>Digital-7</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4ek-fR-69Q">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="cuQ-Ln-E9t">
+                                <rect key="frame" x="16" y="44" width="343" height="714"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Digital-7" family="Digital-7" pointSize="100"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yi8-Wj-Mjf">
+                                <rect key="frame" x="16" y="723" width="343" height="35"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="hVb-3k-r1E"/>
+                                </constraints>
+                                <state key="normal" title="Show Settings">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showSettings:" destination="BYZ-38-t0r" eventType="touchUpInside" id="70l-YQ-bAG"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4S8-OE-NGs">
+                                <rect key="frame" x="16" y="472" width="343" height="234"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="GGU-F9-ZnA">
+                                        <rect key="frame" x="8" y="8" width="327" height="218"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Clock Color" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nb9-Hh-tbE">
+                                                <rect key="frame" x="0.0" y="0.0" width="327" height="28"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="bdG-Nr-mad">
+                                                <rect key="frame" x="0.0" y="38" width="327" height="29"/>
+                                                <segments>
+                                                    <segment title="White"/>
+                                                    <segment title="Black"/>
+                                                    <segment title="Green"/>
+                                                    <segment title="Red"/>
+                                                </segments>
+                                                <connections>
+                                                    <action selector="settingsClockColorAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="Jgp-PZ-0ts"/>
+                                                </connections>
+                                            </segmentedControl>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Background Color" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yni-hZ-hO2">
+                                                <rect key="frame" x="0.0" y="76" width="327" height="28"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="qmj-fO-xZx">
+                                                <rect key="frame" x="0.0" y="114" width="327" height="29"/>
+                                                <segments>
+                                                    <segment title="Black"/>
+                                                    <segment title="White"/>
+                                                    <segment title="Yellow"/>
+                                                    <segment title="Blue"/>
+                                                </segments>
+                                                <connections>
+                                                    <action selector="settingsBackgroundColorAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="Nek-VY-Qfm"/>
+                                                </connections>
+                                            </segmentedControl>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Background Image" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2lJ-eF-nR9">
+                                                <rect key="frame" x="0.0" y="152" width="327" height="28"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="0dm-2g-HiG">
+                                                <rect key="frame" x="0.0" y="190" width="327" height="29"/>
+                                                <segments>
+                                                    <segment title="Image 1"/>
+                                                    <segment title="Image 2"/>
+                                                    <segment title="Image 3"/>
+                                                    <segment title="Image 4"/>
+                                                    <segment title="No Image"/>
+                                                </segments>
+                                                <connections>
+                                                    <action selector="settingsBackgroundImageAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="qZh-Zp-9bQ"/>
+                                                </connections>
+                                            </segmentedControl>
+                                        </subviews>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="GGU-F9-ZnA" secondAttribute="bottom" constant="8" id="9Fz-Za-DX6"/>
+                                    <constraint firstAttribute="trailing" secondItem="GGU-F9-ZnA" secondAttribute="trailing" constant="8" id="A9H-QM-e6p"/>
+                                    <constraint firstItem="GGU-F9-ZnA" firstAttribute="leading" secondItem="4S8-OE-NGs" secondAttribute="leading" constant="8" id="qRO-8s-lR9"/>
+                                    <constraint firstItem="GGU-F9-ZnA" firstAttribute="top" secondItem="4S8-OE-NGs" secondAttribute="top" constant="8" id="vmr-oL-u4i"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Yi8-Wj-Mjf" secondAttribute="trailing" constant="16" id="1GA-zS-h1z"/>
+                            <constraint firstItem="cuQ-Ln-E9t" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="5yE-YG-4ro"/>
+                            <constraint firstItem="cuQ-Ln-E9t" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="AuR-36-vbw"/>
+                            <constraint firstItem="Yi8-Wj-Mjf" firstAttribute="top" secondItem="4S8-OE-NGs" secondAttribute="bottom" constant="17" id="JOg-jR-b2B"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4S8-OE-NGs" secondAttribute="trailing" constant="16" id="RQR-fM-Ykw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="cuQ-Ln-E9t" secondAttribute="bottom" constant="20" id="SVK-8I-czm"/>
+                            <constraint firstAttribute="bottom" secondItem="4ek-fR-69Q" secondAttribute="bottom" id="aho-Fd-xbq"/>
+                            <constraint firstItem="4S8-OE-NGs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="cqO-9S-b37"/>
+                            <constraint firstItem="4ek-fR-69Q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="eX2-Lq-yyu"/>
+                            <constraint firstItem="Yi8-Wj-Mjf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="epp-e2-bgt"/>
+                            <constraint firstItem="4ek-fR-69Q" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="jAH-j2-7Jw"/>
+                            <constraint firstItem="4ek-fR-69Q" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="ngX-1K-rxW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cuQ-Ln-E9t" secondAttribute="trailing" constant="16" id="wCv-Sv-PTt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Yi8-Wj-Mjf" secondAttribute="bottom" constant="20" id="wpx-Wn-0yq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundImage" destination="4ek-fR-69Q" id="uhA-A6-vZf"/>
+                        <outlet property="mainLabelOutlet" destination="cuQ-Ln-E9t" id="F9i-jJ-WLv"/>
+                        <outlet property="settingsBackgroundColor" destination="qmj-fO-xZx" id="fbW-Jn-xl5"/>
+                        <outlet property="settingsBackgroundImage" destination="0dm-2g-HiG" id="3IL-aE-J1w"/>
+                        <outlet property="settingsButton" destination="Yi8-Wj-Mjf" id="vPe-xn-E4H"/>
+                        <outlet property="settingsClockColor" destination="bdG-Nr-mad" id="Qd4-b7-Wbv"/>
+                        <outlet property="settingsView" destination="4S8-OE-NGs" id="UpH-mF-NbN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="116.74876847290641"/>
+        </scene>
+    </scenes>
+</document>

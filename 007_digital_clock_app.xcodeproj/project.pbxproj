@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E5790EE24E4FE1700DA1422 /* digital_7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E5790ED24E4FE1600DA1422 /* digital_7.ttf */; };
+		4ECA971924E4C8E000091200 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECA971824E4C8E000091200 /* AppDelegate.m */; };
+		4ECA971C24E4C8E000091200 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECA971B24E4C8E000091200 /* ViewController.m */; };
+		4ECA971F24E4C8E000091200 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ECA971D24E4C8E000091200 /* Main.storyboard */; };
+		4ECA972124E4C8E000091200 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ECA972024E4C8E000091200 /* Assets.xcassets */; };
+		4ECA972424E4C8E000091200 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ECA972224E4C8E000091200 /* LaunchScreen.storyboard */; };
+		4ECA972724E4C8E000091200 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECA972624E4C8E000091200 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E5790ED24E4FE1600DA1422 /* digital_7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = digital_7.ttf; sourceTree = "<group>"; };
+		4ECA971424E4C8E000091200 /* 007_digital_clock_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 007_digital_clock_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ECA971724E4C8E000091200 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4ECA971824E4C8E000091200 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4ECA971A24E4C8E000091200 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4ECA971B24E4C8E000091200 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4ECA971E24E4C8E000091200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4ECA972024E4C8E000091200 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4ECA972324E4C8E000091200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4ECA972524E4C8E000091200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ECA972624E4C8E000091200 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4ECA971124E4C8E000091200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E5790EC24E4FE0400DA1422 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4E5790ED24E4FE1600DA1422 /* digital_7.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		4ECA970B24E4C8E000091200 = {
+			isa = PBXGroup;
+			children = (
+				4ECA971624E4C8E000091200 /* 007_digital_clock_app */,
+				4ECA971524E4C8E000091200 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4ECA971524E4C8E000091200 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4ECA971424E4C8E000091200 /* 007_digital_clock_app.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4ECA971624E4C8E000091200 /* 007_digital_clock_app */ = {
+			isa = PBXGroup;
+			children = (
+				4E5790EC24E4FE0400DA1422 /* fonts */,
+				4ECA971724E4C8E000091200 /* AppDelegate.h */,
+				4ECA971824E4C8E000091200 /* AppDelegate.m */,
+				4ECA971A24E4C8E000091200 /* ViewController.h */,
+				4ECA971B24E4C8E000091200 /* ViewController.m */,
+				4ECA971D24E4C8E000091200 /* Main.storyboard */,
+				4ECA972024E4C8E000091200 /* Assets.xcassets */,
+				4ECA972224E4C8E000091200 /* LaunchScreen.storyboard */,
+				4ECA972524E4C8E000091200 /* Info.plist */,
+				4ECA972624E4C8E000091200 /* main.m */,
+			);
+			path = 007_digital_clock_app;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4ECA971324E4C8E000091200 /* 007_digital_clock_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ECA972A24E4C8E000091200 /* Build configuration list for PBXNativeTarget "007_digital_clock_app" */;
+			buildPhases = (
+				4ECA971024E4C8E000091200 /* Sources */,
+				4ECA971124E4C8E000091200 /* Frameworks */,
+				4ECA971224E4C8E000091200 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 007_digital_clock_app;
+			productName = 007_digital_clock_app;
+			productReference = 4ECA971424E4C8E000091200 /* 007_digital_clock_app.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4ECA970C24E4C8E000091200 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = mau5atron;
+				TargetAttributes = {
+					4ECA971324E4C8E000091200 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4ECA970F24E4C8E000091200 /* Build configuration list for PBXProject "007_digital_clock_app" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4ECA970B24E4C8E000091200;
+			productRefGroup = 4ECA971524E4C8E000091200 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4ECA971324E4C8E000091200 /* 007_digital_clock_app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4ECA971224E4C8E000091200 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ECA972424E4C8E000091200 /* LaunchScreen.storyboard in Resources */,
+				4E5790EE24E4FE1700DA1422 /* digital_7.ttf in Resources */,
+				4ECA972124E4C8E000091200 /* Assets.xcassets in Resources */,
+				4ECA971F24E4C8E000091200 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4ECA971024E4C8E000091200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ECA971C24E4C8E000091200 /* ViewController.m in Sources */,
+				4ECA972724E4C8E000091200 /* main.m in Sources */,
+				4ECA971924E4C8E000091200 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4ECA971D24E4C8E000091200 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ECA971E24E4C8E000091200 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4ECA972224E4C8E000091200 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ECA972324E4C8E000091200 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4ECA972824E4C8E000091200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4ECA972924E4C8E000091200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4ECA972B24E4C8E000091200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DJ3X3ADRG5;
+				INFOPLIST_FILE = 007_digital_clock_app/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mau5atron.learning-obj-c.-07-digital-clock-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4ECA972C24E4C8E000091200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DJ3X3ADRG5;
+				INFOPLIST_FILE = 007_digital_clock_app/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mau5atron.learning-obj-c.-07-digital-clock-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4ECA970F24E4C8E000091200 /* Build configuration list for PBXProject "007_digital_clock_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ECA972824E4C8E000091200 /* Debug */,
+				4ECA972924E4C8E000091200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ECA972A24E4C8E000091200 /* Build configuration list for PBXNativeTarget "007_digital_clock_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ECA972B24E4C8E000091200 /* Debug */,
+				4ECA972C24E4C8E000091200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4ECA970C24E4C8E000091200 /* Project object */;
+}
